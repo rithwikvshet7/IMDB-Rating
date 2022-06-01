@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.IMDB{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    padding: 5%;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    background-color:aqua;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(252, 175, 9);
+
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 30px;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #000;
+}
+::placeholder{
+    color: gray;
+}
+.search-bar button img{
+    width: 60px;
+    padding-top: 5px;
+}
+.search-bar button img:hover{
+    opacity: 50%;
+}
+.search-bar button{
+
+    height: 70px;
+    background: whitesmoke;
+    cursor: pointer;
+}
